@@ -28,7 +28,7 @@ This function takes in two parameters:
 
 It returns the index of the element x if found in the list arr, otherwise returns -1.
 
-Execution Steps
+##Execution Steps
 
 1. Open the file numbers.txt in read mode.
 2. Read the data from numbers.txt.
