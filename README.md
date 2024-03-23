@@ -41,3 +41,11 @@ It returns the index of the element x if found in the list arr, otherwise return
 9. Print the result whether the element is found or not.
 
 Please ensure that the file 'numbers.txt' contains a list of integers separated by spaces and is sorted in ascending order for accurate results.
+
+## Time and Space Complexity Analysis
+
+**Time Complexity:** _O(log n)_\
+The time complexity of the program is O(log n), where n is the number of elements in the input array. This is because the program uses binary search on the array, which has a time complexity of O(log n).
+
+**Space Complexity:** _O(n)_\
+The space complexity of the program is O(n), where n is the number of elements in the input array. This is because the program stores the input data in a list, which requires space which is proportional to the number of elements in the input array.
