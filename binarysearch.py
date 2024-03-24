@@ -1,3 +1,5 @@
+import openReadFile
+
 #define binarySearch function
 #pass in list of elements, and which element to search for
 def binarySearch(arr, x):
@@ -26,21 +28,8 @@ def binarySearch(arr, x):
     #return if element is not in the array
     return -1   
 
-    
-#open file numbers.txt in read mode
-file = open("numbers.txt", "r")
 
-#save the data from numbers.txt
-data = file.read()
-
-#convert data to a list
-arr = data.split(' ')
-
-#convert each element in the list into an int
-arr = [int(x) for x in arr]
-
-#close the file
-file.close()
+arr = openReadFile.openFile()
 
 #ask what to search for
 x = int(input("Input element: "))
